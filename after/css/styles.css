@@ -1,0 +1,206 @@
+.row {
+  margin-bottom: 15px;
+}
+.row1 > div {
+  border: 1px ;
+  background-color: yellow;
+  text-align:center ;
+  font-size: 23px  ;
+  font-weight: bold;
+ 
+  
+  font-family: 'Oxygen', sans-serif;
+}
+
+.row > div {
+  border: 1px ;
+  background-color:  yellow;
+  text-align: left;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 25px;
+	/*font-family: Arial;*/
+}
+h2{
+	text-align: center;
+
+	margin-bottom: 25px;
+}
+body {
+  font-size: 17px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+/*
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}*/
+
+/** HEADER **/
+#header-nav {
+  background-color:#f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-b h2 { /* Restaurant name ,,,,FOOD LLC*/
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  
+ 
+  font-weight: bold;
+
+  text-shadow: 1px 1px 1px #222; 
+  line-height: .75;
+  text-align: center;
+
+}
+
+
+.navbar-brand h1 { /* Restaurant name ,,,,FOOD LLC*/
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+
+
+
+  /* End Home Page */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+  	text-align: center;/***********/
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    text-align: center;/************/
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  
+  }
+
+}
